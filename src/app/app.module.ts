@@ -7,6 +7,7 @@ import { AppComponent }  from './app.component';
 
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { HeroService } from './hero.service';
 
 import { DashboardComponent } from './dashboard.component.js'
 
@@ -36,6 +37,9 @@ import { DashboardComponent } from './dashboard.component.js'
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent
+  ],
+  providers: [
+    HeroService
   ],
   bootstrap:    [ AppComponent ],
 })

@@ -12,6 +12,7 @@ var router_1 = require("@angular/router");
 var app_component_1 = require("./app.component");
 var heroes_component_1 = require("./heroes.component");
 var hero_detail_component_1 = require("./hero-detail.component");
+var hero_service_1 = require("./hero.service");
 var dashboard_component_js_1 = require("./dashboard.component.js");
 var AppModule = (function () {
     function AppModule() {
@@ -44,6 +45,9 @@ AppModule = __decorate([
             dashboard_component_js_1.DashboardComponent,
             hero_detail_component_1.HeroDetailComponent,
             heroes_component_1.HeroesComponent
+        ],
+        providers: [
+            hero_service_1.HeroService
         ],
         bootstrap: [app_component_1.AppComponent],
     })
