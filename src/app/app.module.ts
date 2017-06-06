@@ -29,7 +29,8 @@ import { DashboardComponent } from './dashboard.component.js'
   declarations: [ 
     AppComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    DashboardComponent
   ],
   bootstrap:    [ AppComponent ],
 })
