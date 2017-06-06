@@ -28,11 +28,11 @@ export class Hero {
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
     </ul>
-    <h2>{{hero.name}} details!</h2>
-    <div><label>id: </label>{{hero.id}}</div>
+    <h2>{{selectedHero.name}} details!</h2>
+    <div><label>id: </label>{{selectedHero.id}}</div>
     <div>
       <label>name: </label>
-      <input [(ngModel)]="hero.name" placeholder="name">
+      <input [(ngModel)]="selectedHero.name" placeholder="name">
     </div>
     `,
     styles: [`
@@ -90,4 +90,8 @@ export class AppComponent  {
 
   title = 'Tour of Heros';
   selectedHero: Hero;
+
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 }
