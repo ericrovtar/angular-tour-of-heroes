@@ -89,8 +89,5 @@ export class AppComponent  {
   heroes = HEROES;
 
   title = 'Tour of Heros';
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
+  selectedHero: Hero;
 }

@@ -28,10 +28,6 @@ var AppComponent = (function () {
     function AppComponent() {
         this.heroes = HEROES;
         this.title = 'Tour of Heros';
-        this.hero = {
-            id: 1,
-            name: 'Windstorm'
-        };
     }
     return AppComponent;
 }());
