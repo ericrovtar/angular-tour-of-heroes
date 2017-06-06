@@ -34,16 +34,16 @@ AppModule = __decorate([
                     component: heroes_component_1.HeroesComponent
                 },
                 {
-                    path: 'dashbaord',
+                    path: 'dashboard',
                     component: dashboard_component_js_1.DashboardComponent
-                }
+                },
             ])
         ],
         declarations: [
             app_component_1.AppComponent,
+            dashboard_component_js_1.DashboardComponent,
             hero_detail_component_1.HeroDetailComponent,
-            heroes_component_1.HeroesComponent,
-            dashboard_component_js_1.DashboardComponent
+            heroes_component_1.HeroesComponent
         ],
         bootstrap: [app_component_1.AppComponent],
     })

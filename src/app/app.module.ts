@@ -26,16 +26,16 @@ import { DashboardComponent } from './dashboard.component.js'
         component: HeroesComponent
       },
       {
-        path: 'dashbaord',
+        path: 'dashboard',
         component: DashboardComponent
-      }
+      },
     ])
   ],
   declarations: [ 
     AppComponent,
+    DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent,
-    DashboardComponent
+    HeroesComponent
   ],
   bootstrap:    [ AppComponent ],
 })
