@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var MyDashboardComponent = (function () {
-    function MyDashboardComponent() {
+var DashboardComponent = (function () {
+    function DashboardComponent() {
     }
-    return MyDashboardComponent;
+    return DashboardComponent;
 }());
-MyDashboardComponent = __decorate([
+DashboardComponent = __decorate([
     core_1.Component({
         selector: 'my-dashboard',
         template: "<h3>My Dashboard</h3>"
     })
-], MyDashboardComponent);
-exports.MyDashboardComponent = MyDashboardComponent;
+], DashboardComponent);
+exports.DashboardComponent = DashboardComponent;
 //# sourceMappingURL=dashboard.component.js.map
