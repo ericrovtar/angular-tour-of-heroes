@@ -8,6 +8,8 @@ import { AppComponent }  from './app.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 
+import { DashboardComponent } from './dashboard.component.js'
+
 
 @NgModule({
   imports:      [ 
@@ -17,6 +19,10 @@ import { HeroDetailComponent } from './hero-detail.component';
       {
         path: 'heroes',
         component: HeroesComponent
+      },
+      {
+        path: 'dashbaord',
+        component: DashboardComponent
       }
     ])
   ],
