@@ -26,6 +26,9 @@ var HeroesComponent = (function () {
         var _this = this;
         this.heroService.getHeroes().then(function (heroes) { return _this.heroes = heroes; });
     };
+    HeroesComponent.prototype.gotoDetail = function () {
+        this.router.navigate(['/detail', this.selectedHero.id]);
+    };
     return HeroesComponent;
 }());
 HeroesComponent = __decorate([
